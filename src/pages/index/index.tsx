@@ -27,6 +27,7 @@ export default class Index extends Component {
         <view><Text>测试案例：</Text></view>
         <View><AtButton onClick={()=>this.jumpPage('/pages/translation/index')}>同声传译</AtButton></View>
         <View><AtButton onClick={()=>this.jumpPage('/pages/speak/index')}>文字转语音</AtButton></View>
+        <View><AtButton onClick={()=>this.jumpPage('/pages/record/index')}>录音接口</AtButton></View>
       </View>
     )
   }

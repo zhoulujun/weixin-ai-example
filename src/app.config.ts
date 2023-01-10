@@ -1,9 +1,9 @@
 export default {
   pages: [
-
     'pages/index/index',
     'pages/speak/index',
     'pages/translation/index',
+    'pages/record/index',
 
   ],
   window: {
